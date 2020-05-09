@@ -1,0 +1,43 @@
+rewards:
+  firework-reward:
+    repetitive: true
+    actions:
+      firework:
+        power: 2
+        flicker: true
+        trail: true
+        # BALL, BALL_LARGE, STAR, BURST, CREEPER
+        type: BALL
+        colors:
+          - '000000'
+        fades:
+          - '000000'
+  diamond-reward:
+    repetitive: true
+    requirements:
+      chance: 33
+      permission: vote.reward.diamondreward
+    actions:
+      commands:
+        say-command:
+          as-player: false
+          run:
+            - 'say %player% &aVoted our server and gain &l&e3 &b&lDIAMOND&r!'
+      items:
+        diamond-item:
+          material: DIAMOND
+          amount: 3
+          display-name: '&aVote Diamond'
+  emerald-reward-just-one:
+    repetitive: false
+    requirements:
+      chance: 25
+      permission: vote.reward.emeraldreward
+    actions:
+      items:
+        emerald-item:
+          material: EMERALD
+          amount: 10
+          display-name: '&6Limited Production'
+          lore:
+            - '&aLimited Emerald!'

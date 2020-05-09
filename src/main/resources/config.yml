@@ -1,0 +1,7 @@
+plugin-prefix: '&6[&eVote&6]'
+plugin-language: 'en'
+update-checker: true
+hooks:
+  auto-detect: true
+  Vault: false
+  PlaceholderAPI: false

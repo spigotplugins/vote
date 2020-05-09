@@ -1,0 +1,25 @@
+title: 'Main Menu'
+size: 27
+
+elements:
+  rewards:
+    row: 1
+    column: 2
+    material: DIAMOND
+    display-name: '&aRewards'
+    lore:
+      - ''
+      - '&7Opens rewards list'
+  vote-parties:
+    row: 1
+    column: 6
+    material: EMERALD
+    display-name: '&aVoteParties'
+    lore:
+      - ''
+      - '&7Opens vote parties list'
+  empty-slots:
+    row: 0
+    column: 0
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: ' '

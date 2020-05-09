@@ -1,0 +1,25 @@
+title: 'Requirements'
+size: 27
+
+elements:
+  chance:
+    row: 1
+    column: 2
+    material: CLOCK
+    display-name: '&aChance: %chance%'
+    lore:
+      - ''
+      - '&7Click to edit chance of the reward'
+  permissions:
+    row: 1
+    column: 6
+    material: LADDER
+    display-name: 'Permissions'
+    lore:
+      - ''
+      - '&cClick to edit permissions of the reward'
+  empty-slots:
+    row: 0
+    column: 0
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: ' '

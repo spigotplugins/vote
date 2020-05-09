@@ -1,0 +1,35 @@
+title: 'Edit %reward_id% Reward'
+size: 27
+
+elements:
+  requirements:
+    row: 1
+    column: 1
+    material: REDSTONE
+    display-name: '&aRequirements'
+  actions:
+    row: 1
+    column: 3
+    material: REDSTONE_TORCH
+    display-name: '&aActions'
+  for-each:
+    row: 1
+    column: 5
+    material: COMPARATOR
+    display-name: '&aFor Each: %for_each%'
+    lore:
+      - ''
+      - '&7Click to change the stat'
+  repetitive:
+    row: 1
+    column: 7
+    material: OAK_BUTTON
+    display-name: '&aRepetitive: %repetitive%'
+    lore:
+      - ''
+      - '&7Click to change the stat'
+  empty-slots:
+    row: 0
+    column: 0
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: ' '

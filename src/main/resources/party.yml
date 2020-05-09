@@ -1,0 +1,91 @@
+enable: true
+required-for-party: 50
+delay-between-rewards: 1
+max-given-rewards: 10
+
+pre-party-start-rewards:
+  0:
+    for-each: false
+    actions:
+      sound: ENTITY_WITHER_DEATH
+      title:
+        title: '&2&lVoteParty'
+        sub-title: '&eVoteParty wurde erreicht, haltet euch bereit für Action'
+        fade-in: 0
+        show-time: 20
+        fade-out: 0
+  1:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &210'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  2:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &29'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  3:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &28'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  4:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &27'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  5:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &26'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  6:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &25'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  7:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &24'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  8:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &23'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  9:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &22'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  10:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted in &21'
+      sound: BLOCK_NOTE_BLOCK_BASS
+  11:
+    for-each: false
+    actions:
+      message: '&5VoteParty &estarted'
+      sound: BLOCK_NOTE_BLOCK_BASS
+party-start-rewards:
+  0:
+    for-each: true
+    requirements:
+      chance: 10
+    actions:
+      items:
+        item-1:
+          material: DIAMOND
+          amount: 3
+          display-name: 'VotePartyDiamond'
+          lore:
+            - 'test'
+            - 'test'
+          rewards:
+            0:
+              actions:
+                sound: BLOCK_NOTE_BLOCK_BASS
+                broadcast: '%player_name% won %item%x%item_amount% item!'
+party-finish-rewards: {}

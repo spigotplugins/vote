@@ -1,0 +1,22 @@
+error:
+  inventory-is-full: '%prefix% &cEnvanterin dolu! Lütfen ''/vote rewards'' komutunu girerek verilmemiş ödüllerinizi menüden alın.!'
+  player-not-found: '%prefix% &cOyuncu bulunamadi!'
+
+general:
+  reload-complete: '%prefix% &aYeniden yükleme tamamlandı! &7(%ms%ms) &7sürdü'
+  latest-version: '%prefix% &r>> &aSon sürümü kullanıyorsunuz (v%version%)'
+  new-version-found: '%prefix% &r>> &aYeni sürüm bulundu (v%version%)'
+
+links:
+  - '&6======= %prefix% &6======='
+  - 'https://minecraft-mp.com/server/230245/vote/'
+
+commands:
+  - '&6======= %prefix% &6======='
+  - '&7/vote &r> &eVote linklerini gösterir.'
+  - '&7/vote help &r> &eVote yardım mesajını gönderir.'
+  - '&7/vote link/links &r> &eVote linklerini gösterir.'
+  - '&7/vote reload &r> &eEklentiyi yeniden yükler.'
+  - '&7/vote version &r> &eGüncelleme kontrolü yapar.'
+  - '&7/vote create [id] &r> &eYeni ödül yaratmanızı sağlar.'
+  - '&7/vote rewards > &eOyuncunun verilmemiş ödüllerini gösterir.'

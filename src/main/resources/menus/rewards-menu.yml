@@ -1,0 +1,41 @@
+title: 'Rewards'
+size: 54
+
+elements:
+  pattern:
+    row: 0
+    column: 0
+    material: DIAMOND
+    display-name: '&e%reward_id%'
+    lore:
+      - ''
+      - '&7Left Click to edit %reward_id% Reward!'
+      - '&7Right Click to remove %reward_id% Reward!'
+  create:
+    row: 5
+    column: 2
+    material: OAK_SIGN
+    display-name: '&aCreate new Reward'
+    lore:
+      - ''
+      - '&7Left Click to create new reward'
+  back:
+    row: 5
+    column: 4
+    material: ARROW
+    display-name: '&7Back'
+  next:
+    row: 5
+    column: 8
+    material: ARROW
+    display-name: '&eNext Page'
+  previous:
+    row: 5
+    column: 0
+    material: ARROW
+    display-name: '&ePrevious Page'
+  empty-slots:
+    row: 0
+    column: 0
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: ' '

@@ -1,0 +1,19 @@
+title: 'Do you want?'
+size: 27
+
+elements:
+  accept:
+    row: 1
+    column: 2
+    material: GREEN_WOOL
+    display-name: '&a&lAccept'
+  reject:
+    row: 1
+    column: 6
+    material: RED_WOOL
+    display-name: '&c&lReject'
+  empty-slots:
+    row: 0
+    column: 0
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: ' '

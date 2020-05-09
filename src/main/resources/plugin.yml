@@ -1,0 +1,43 @@
+name: ${project.name}
+main: io.github.portlek.vote.Vote
+version: ${project.version}
+api-version: '1.13'
+depend:
+  - Votifier
+softdepend:
+  - Vault
+  - PlaceholderAPI
+
+permissions:
+  vote.*:
+    description: Gives you all permissions of the Plugin
+    default: op
+    children:
+      vote.version:
+        description: Gives you permission to show a version check message.
+        default: op
+      vote.command.*:
+        description: Gives you all command permissions of the Plugin
+        default: op
+        children:
+          vote.command.vote:
+            description: Gives you permission to use that /vote
+            default: true
+          vote.command.link:
+            description: Gives you permission to use that /vote link
+            default: true
+          vote.command.menu:
+            description: Gives you permission to use that /vote menu
+            default: op
+          vote.command.reload:
+            description: Gives you permission to use that /vote reload
+            default: op
+          vote.command.version:
+            description: Gives you permission to use that /vote version
+          vote.command.voteparty.*:
+            description: Give you all command permission after /vote vp
+            default: op
+            children:
+              vote.command.voteparty.start:
+                description: Give you permission to use that /vote vp start
+                default: op

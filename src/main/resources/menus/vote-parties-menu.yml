@@ -1,0 +1,23 @@
+title: 'Votes'
+size: 54
+
+elements:
+  pattern:
+    row: 0
+    column: 0
+    material: EMERALD
+    display-name: '&e%vote_party_id%'
+    lore:
+      - ''
+      - '&7Left Click to edit %vote_party_id% VoteParty!'
+      - '&7Right Click to remove %vote_party_id% VoteParty!'
+  back:
+    row: 5
+    column: 4
+    material: ARROW
+    display-name: '&7Back'
+  empty-slots:
+    row: 0
+    y: 0
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: ' '
